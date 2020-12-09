@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com/cybertek/library/step_definitions",
-        tags = "",
-        dryRun = true
+        tags = "@librarian or @student",
+        dryRun = false
 
 )
 
